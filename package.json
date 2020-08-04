@@ -1,7 +1,8 @@
 {
   "name": "@jmind.systems/react-role-controller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
+  "keywords": ["react", "role", "role-controller"],
   "main": "index.js",
   "scripts": {
     "test": "jest",
