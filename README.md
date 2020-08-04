@@ -12,6 +12,6 @@ import { UserRole } from 'react-role-controller';
 ## Docs
 1. Roles - array of roles (strings),
 2. CurrentRole - role (string),
-3. Children - array of React nodes,
+3. Children - array of React nodes
 
 
