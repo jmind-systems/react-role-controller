@@ -14,15 +14,19 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.ts'],
-    alias: {
-      utils: path.resolve(__dirname, 'src/utils/')
-    }
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
-    library: 'library-name',
+    library: '@jmind.systems/react-role-controller',
     libraryTarget: 'umd'
+  },
+  externals: {
+    react: {
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react'
+    },
   },
   optimization: {
     minimize: true
